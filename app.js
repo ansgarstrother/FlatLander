@@ -6,16 +6,26 @@ var app = angular.module('store', [ ]);
 
   var gems = [
     {
-      name: 'Ruby',
+      name: 'Aquamarine',
       price: 5.00,
-      description: 'real red, real shiny',
+      description: 'Very Aqua-ish',
       canPurchase: true,
+      images: [
+        {
+          full: 'images/aquamarine.png'
+        }
+      ]
     },
     {
-      name: "Topaz",
+      name: "Citrine",
       price: 3.75,
-      description: "not as cool as the Ruby gem",
+      description: "It's like orange, but better",
       canPurchase: true,
+      images: [
+        {
+          full: 'images/citrine.png'
+        }
+      ]
     }
   ];
 })();
